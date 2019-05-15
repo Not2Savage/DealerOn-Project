@@ -65,14 +65,6 @@ namespace DealerOn_Project
         public void ThenResultsPageShouldShowChevroletCorvetteResults(int p0)
         {
             Assert.IsTrue(driver.FindElement(By.PartialLinkText("2017 Chevrolet Corvette")).Displayed);
-
-            /*var carCount = driver.FindElements(By.CssSelector("div.col-md-12.col-sm-12.hidden-xs > h2 > a > span")).Count;
-            IWebElement carName = driver.FindElement(By.CssSelector("div.col-md-12.col-sm-12.hidden-xs > h2 > a > span"));
-            for (int i = 0; i < carCount; i++)
-            {
-                Assert.IsTrue(driver);
-            }
-            */
         }
 
         [Then(@"close browser again")]
