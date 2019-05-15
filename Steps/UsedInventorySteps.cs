@@ -13,9 +13,8 @@ namespace DealerOn_Project.Steps
         public void GivenIOpenChromeBrowser()
         {
             driver = new ChromeDriver("C:\\Users\\hunte\\source\\repos");
-            
         }
-        
+
         [Given(@"I navigate to https://www\.rothbardchevy\.com/")]
         public void GivenINavigateToHttpsWww_Rothbardchevy_Com()
         {
