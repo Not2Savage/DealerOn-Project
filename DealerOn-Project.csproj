@@ -91,12 +91,14 @@
   <ItemGroup>
     <Compile Include="BaseClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\AboutUsSteps.cs" />
     <Compile Include="Steps\SearchInventoryFeatureSteps.cs" />
     <Compile Include="Steps\UsedInventorySteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Default.srprofile" />
     <None Include="Features\SearchInventory.feature" />
+    <None Include="Features\AboutUs.feature" />
     <None Include="Features\UsedInventory.feature" />
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
