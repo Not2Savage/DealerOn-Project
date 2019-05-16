@@ -9,16 +9,15 @@ In my career as a SDET I have worked in Java shops and currently
 now a Scala environment so I have not really had the chance
 to get my feet wet in C#. With that said I took the opportunity
 to learn something new. Please make me aware of any feedback or ways
-to improve, Im always open to feedback!
+to improve, Im always open to feedback
 
 ### AboutUs.feature
 This was probably the most challenging test for such a silly reason.
 I had a ton of issues getting the text from an element in C#. Normally
-I could just do `.getText()` and it would work fine. I have tried
-`.Text`, `.ToString` and various other ways of getting that phone
-number to assert against expected results to no avail. This is the only
-text that is not fully functioning because of this and I would love to hear
-how I can fix this.
+I could use an implicit wait on the page to wait for it to load but couldnt get
+it functioning with C#. I left in the implicit wait I tried, just commenting it out but
+sadly was forced to use an ugly sleep timer to wait for the module to load with an even
+uglier selector to find the element. With no sleep or wait it quickly returns `null`.
 
 ### SearchInventory.feature
 Only issue I had with this at first was upon clicking 'Used'
