@@ -104,6 +104,7 @@
     <None Include="Features\AboutUs.feature" />
     <None Include="Features\UsedInventory.feature" />
     <None Include="packages.config" />
+    <None Include="README.md" />
     <None Include="runtests.cmd" />
     <None Include="SpecRunTestProfile.xsd">
       <SubType>Designer</SubType>

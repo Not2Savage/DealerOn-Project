@@ -45,6 +45,8 @@ namespace DealerOn_Project.Steps
         [When(@"I see Jax Rothbards phone number")]
         public void WhenISeeJaxRothbardsPhoneNumber()
         {
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            System.Threading.Thread.Sleep(250);
             IWebElement phoneNumber = driver.FindElement(By.XPath("//*[@id='tab-pane-4417']/div[1]/div[2]/ul/li[3]/ul/li[2]/a"));
             String phone = phoneNumber.Text;
             Assert.AreEqual("584-681-5189", phone);
